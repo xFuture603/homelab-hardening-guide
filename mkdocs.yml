@@ -1,5 +1,5 @@
 site_name: Hardening Guide for Homelabs
-#site_url: https://symnixhq.github.io/portal/
+site_url: https://xfuture603.github.io/homelab-hardening-guide/
 markdown_extensions:
   - toc:
       permalink: true
