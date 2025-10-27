@@ -1,15 +1,28 @@
 site_name: Hardening Guide for Homelabs
 site_url: https://xfuture603.github.io/homelab-hardening-guide/
 repo_url: https://github.com/xFuture603/homelab-hardening-guide
+repo_name: Homelab Hardening Guide
 markdown_extensions:
   - toc:
       permalink: true
   - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 nav:
   - Overview: index.md
+  - Networking:
+    - network/index.md
+  - Operating System:
+    - os/index.md
+  - Containerization:
+    - containerization/index.md
+  - Tooling:
+    - tooling/index.md
+    - tooling/quick-wins.md
 theme:
   name: material
   font:
