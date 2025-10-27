@@ -1,5 +1,6 @@
 site_name: Hardening Guide for Homelabs
 site_url: https://xfuture603.github.io/homelab-hardening-guide/
+repo_url: https://github.com/xFuture603/homelab-hardening-guide
 markdown_extensions:
   - toc:
       permalink: true
