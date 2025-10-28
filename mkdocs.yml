@@ -18,6 +18,7 @@ nav:
     - network/index.md
   - Operating System:
     - os/index.md
+    - os/ssh.md
   - Containerization:
     - containerization/index.md
   - Tooling:
