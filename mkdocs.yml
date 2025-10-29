@@ -22,6 +22,7 @@ nav:
       - os/ssh/index.md
       - os/ssh/ssh-keys.md
       - os/ssh/disable-root-login.md
+      - os/ssh/remove-outdated-protocols.md
   - Containerization:
     - containerization/index.md
   - Tooling:

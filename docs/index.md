@@ -42,7 +42,7 @@ Before applying the recommendations in this guide, ensure that you have:
 
 - **Basic Technical Understanding**  
   You should be comfortable using the command line and editing configuration
-  iles.
+  files.
 
 - **A System Running GNU/Linux**  
   The examples and guidance in this guide are tailored to Linux-based
