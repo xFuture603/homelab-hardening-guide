@@ -1,6 +1,6 @@
 # Homelab Hardening Guide
 
-## The Motivation
+## Why This Guide Exists
 
 The name "**Homelab Hardening Guide**" was chosen deliberately to distinguish
 this project from traditional enterprise hardening approaches since homelab
@@ -36,7 +36,14 @@ your own due-diligence before implementing anything.
     significantly
     missing in this guide, feel free to suggest changes via pull request.
 
-## Prerequisites
+## Requirements
 
-- Technical Understanding
-- A system that runs GNU/Linux
+Before applying the recommendations in this guide, ensure that you have:
+
+- **Basic Technical Understanding**  
+  You should be comfortable using the command line and editing configuration
+  iles.
+
+- **A System Running GNU/Linux**  
+  The examples and guidance in this guide are tailored to Linux-based
+  homelab environments.
