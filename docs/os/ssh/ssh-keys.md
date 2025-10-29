@@ -1,9 +1,4 @@
-# SSH
-
-This section is all about ssh security. Below you can find some useful
-information on how you can secure ssh.
-
-## Use SSH Keys for Remote Access
+# Use SSH Keys for Remote Access
 
 !!! quote
 
@@ -52,3 +47,9 @@ Some of the advantages using SSH keys:
 - **Enables Secure Automation:** Passwordless authentication allows automated
   systems, scripts, and tools (such as Ansible) to access SSH servers safely
   without manual password entry.
+
+### Sources
+
+- [Configure SSH Key Authentication (DigitalOcean)][ssh-key-based-auth]
+
+[ssh-key-based-auth]: https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server

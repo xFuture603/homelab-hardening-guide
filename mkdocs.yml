@@ -18,7 +18,9 @@ nav:
     - network/index.md
   - Operating System:
     - os/index.md
-    - os/ssh.md
+    - SSH:
+      - os/ssh/index.md
+      - os/ssh/ssh-keys.md
   - Containerization:
     - containerization/index.md
   - Tooling:
@@ -28,6 +30,8 @@ theme:
   name: material
   font:
     text: Work Sans
+  features:
+    - navigation.indexes
 #  favicon: assets/favicon.ico
 #  logo: assets/tbd.png
   palette:
