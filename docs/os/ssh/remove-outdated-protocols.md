@@ -40,6 +40,12 @@ MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,umac-128-etm@op
   (Hash-based Message Authentication Code) verify message integrity and prevent
   tampering.
 
+!!! info
+
+    Recommended Ciphers, KexAlgorithms and MACs may differ depending on the
+    OpenSSH version used.
+    Check the [linked source][mozilla-openssh-settings] for more information.
+
 ### Restart the SSH service
 
 Apply your changes:

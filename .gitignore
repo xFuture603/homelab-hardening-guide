@@ -1,3 +1,4 @@
 .vscode
 
-assets
+# locally generated assets for the plugin mkdocs-document-dates
+docs/assets/document_dates/

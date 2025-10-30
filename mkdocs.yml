@@ -27,10 +27,11 @@ nav:
     - os/index.md
     - SSH:
       - os/ssh/index.md
+      - os/ssh/non-standard-port.md
       - os/ssh/ssh-keys.md
       - os/ssh/disable-root-login.md
       - os/ssh/remove-outdated-protocols.md
-      - os/ssh/limit-ssh-logins-to-user-or-ip.md
+      - os/ssh/limit-logins-to-user-or-ip.md
   - Containerization:
     - containerization/index.md
   - Tooling:
