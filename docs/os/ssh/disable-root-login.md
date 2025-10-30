@@ -32,7 +32,7 @@ An example entry can look like this:
 sudo:x:27:<your_username>
 ```
 
-### Edit the `/etc/ssh/sshd_config` file to disable Root Login
+### Edit the `/etc/ssh/sshd_config` file to disable root login
 
 ```bash
 vim /etc/ssh/sshd_config

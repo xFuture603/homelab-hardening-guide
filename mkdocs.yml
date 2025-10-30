@@ -12,6 +12,13 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+plugins:
+  - document-dates:
+      position: bottom
+      type: date
+      date_format: '%Y-%m-%d'
+      time_format: '%H:%M:%S'
+      show_author: text
 nav:
   - Overview: index.md
   - Networking:
@@ -23,6 +30,7 @@ nav:
       - os/ssh/ssh-keys.md
       - os/ssh/disable-root-login.md
       - os/ssh/remove-outdated-protocols.md
+      - os/ssh/limit-ssh-logins-to-user-or-ip.md
   - Containerization:
     - containerization/index.md
   - Tooling:
