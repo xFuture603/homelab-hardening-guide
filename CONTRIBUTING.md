@@ -14,7 +14,7 @@ to track all tasks related to this project.
 
 There are three steps to set up a working environment:
 
-1. [Fork the repository](#fork-the-repository)
+1. [Fork the repository](#fork-the-repo)
 2. [Clone your fork](#clone-your-fork)
 3. [Add your changes](#add-your-changes)
 
@@ -33,8 +33,8 @@ download a copy of the repository to your computer.
 
 Use `git clone` to clone your fork
 
-```
-$ git clone https://github.com/xFuture603/homelab-hardening-guide.git
+```bash
+git clone https://github.com/xFuture603/homelab-hardening-guide.git
 ```
 
 ### Add your changes
@@ -44,7 +44,7 @@ Now go into the repository folder and add your changes.
 
 For example, if you are working in the `~/dev` directory:
 
-```
+```bash
 cd ~/dev
 
 vim /file/you/want/to/change
@@ -77,34 +77,34 @@ There are three steps to submitting a pull request:
 
 First, get a list of all the files you have changed.
 
-```
-$ git status
+```bash
+git status
 ```
 
 Next, _stage_ the file you want to save. This will add the file to a new list
 that is ready to be saved.
 
-```
-$ git add /files/you/changed
+```bash
+git add /files/you/changed
 ```
 
 Save your staged files. For example:
 
-```
-$ git commit -m "docs: added section for segmented vlan"
+```bash
+git commit -m "docs: added section for segmented vlan"
 ```
 
 ### Send your changes to your fork
 
 Use the `git push` command to add your local made changes to your remote fork
 
-```
-$ git push origin main
+```bash
+git push origin main
 ```
 
 ### Open a Pull Request
 
-1. Find the [Create Pull Request](https://github.com/xFuture603/homelab-hardening-guide/compare/) button
+1. Find the [Create Pull Request][create-pr] button
 1. Select **compare across forks**
 1. Add your forked branch and select the right base repository
 1. Click **Create Pull Request**
@@ -113,3 +113,5 @@ $ git push origin main
 
 By contributing, you agree that your contributions will be licensed under its
 Attribution-ShareAlike 4.0 International license.
+
+[create-pr]: https://github.com/xFuture603/homelab-hardening-guide/compare/

@@ -36,6 +36,19 @@ your own due-diligence before implementing anything.
     significantly
     missing in this guide, feel free to suggest changes via pull request.
 
+## A word or two about security and complexity
+
+It’s important to recognize that security does not automatically improve by
+adding more tools, layers, or technologies. Each additional component increases
+the overall complexity of a system, and complexity tends to introduce new risks
+— misconfigurations, unexpected interactions, and operational overhead.
+A simpler system is often a more secure system, because it is easier to
+understand, monitor, and maintain.
+
+!!! quote
+
+    Complexity is the Worst Enemy of Security - Bruce Schneier
+
 ## Requirements
 
 Before applying the recommendations in this guide, ensure that you have:

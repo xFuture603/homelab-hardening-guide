@@ -1,0 +1,7 @@
+default: true
+extends: null
+
+# To make markdownlint work with markdown code blocks and admonitions it
+# requires some tinkering with a additional plugin. 
+# See: https://github.com/DavidAnson/markdownlint/issues/207
+code-block-style: false

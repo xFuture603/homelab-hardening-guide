@@ -49,7 +49,7 @@ ss -an | grep <your_port>
 
 ### Using the New SSH Port
 
-You can specify the port by invoking the `ssh` command followed by the `-p 
+You can specify the port by invoking the `ssh` command followed by the `-p
 <your_port>` option:
 
 ```bash

@@ -9,7 +9,7 @@
     these keys. It significantly improves security by reducing the risks
     associated with traditional Password-based Authentication.
 
-### Key Components
+## Key Components
 
 SSH keys are created as a pair and saved as plain-text files.
 A key pair consists of two parts:
@@ -26,7 +26,7 @@ on your computer can read the file.
 ### Configuration
 
 Some information on how you can generate and use SSH Keys can be found
-[here](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server).
+[on DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-configure-ssh-key-based-authentication-on-a-linux-server).
 
 !!! danger
 
