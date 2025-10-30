@@ -3,7 +3,9 @@
 Changing the SSH service from its default port 22 to a higher, non-standard port
 can reduce exposure to automated scans and brute-force attempts, which
 constitute the majority of attacks. This measure is not a replacement for strong
-authentication or firewall policies, but it adds a minor layer of obscurity.
+authentication or firewall policies, but it adds a minor layer of obscurity. On
+top of that you can use the default ssh port for honeypots like `Cowrie` or
+something like `endlessh`.
 
 !!! info
 
@@ -62,5 +64,9 @@ system.
 ### Sources
 
 - [Configure your SSH client via config file][ssh-client-config]
+- [Cowrie SSH Honeypot][cowrie]
+- [Endlessh SSH tarpit][endlessh]
 
 [ssh-client-config]: https://man.openbsd.org/ssh_config
+[cowrie]: https://github.com/cowrie/cowrie
+[endlessh]: https://github.com/skeeto/endlessh
