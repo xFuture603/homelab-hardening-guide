@@ -93,7 +93,7 @@ sudo vim /etc/ssh/sshd_config
 
 Add or modify the following lines to:
 
-```
+```md
 ChallengeResponseAuthentication yes
 PasswordAuthentication no
 UsePAM yes

@@ -37,6 +37,8 @@ nav:
     - containerization/index.md
   - Tooling:
     - tooling/index.md
+    - IPS:
+      - tooling/intrusion-prevention-systems/fail2ban.md
     - tooling/quick-wins.md
 theme:
   name: material

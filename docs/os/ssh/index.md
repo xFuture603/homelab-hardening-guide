@@ -11,9 +11,13 @@ sources or different topics on how you can harden your Secure Shell.
 
 ## General Useful Resources
 
+- [Enhance SSH Security with fail2ban][fail2ban]
 - [Mozilla's recommended settings for
   OpenSSH configuration][mozilla-openssh-settings]
+- [Lynis - Security auditing tool for Linux][lynis]
 - [ssh-audit tool for ssh server & client configuration][ssh-audit]
 
+[fail2ban]: ../../tooling/intrusion-prevention-systems/fail2ban.md
 [mozilla-openssh-settings]: https://infosec.mozilla.org/guidelines/openssh
 [ssh-audit]: https://github.com/jtesta/ssh-audit/
+[lynis]: https://github.com/CISOfy/lynis
