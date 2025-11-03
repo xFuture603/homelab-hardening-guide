@@ -32,6 +32,7 @@ nav:
       - os/ssh/disable-root-login.md
       - os/ssh/remove-outdated-protocols.md
       - os/ssh/limit-logins-to-user-or-ip.md
+      - os/ssh/two-factor-authentication.md
   - Containerization:
     - containerization/index.md
   - Tooling:
