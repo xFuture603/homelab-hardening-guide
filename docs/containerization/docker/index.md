@@ -2,7 +2,8 @@
 
 This section covers practical approaches to running Docker more securely — from
 restricting container capabilities, to managing secrets, to reducing the impact
-of a compromised container.
+of a compromised container. We will also cover a variety of tips for hardened
+container images.
 
 !!! warning
 
@@ -10,6 +11,30 @@ of a compromised container.
     Container environments are dynamic, and new vulnerabilities or image updates
     can change behavior over time. Always validate changes in a test environment
     before applying them to critical services.
+
+## Understanding Potential Attack Vectors
+
+- **Insecure Exposure:** Exposing the web interfaces of containerized
+  applications without proper authentication or network restrictions can make
+  them easy targets for attackers.
+
+- **Untrusted or Malicious Images:** Running container images from unverified
+  sources, such as third-party repositories with limited transparency about
+  authorship or source code, introduces potential security risks.
+
+- **Supply Chain Attacks:** Even trusted images may contain dependencies with
+  vulnerabilities or malicious code, creating a vector for compromise within the
+  container.
+
+- **Lateral Movement:** If a container or host is compromised, attackers can
+  leverage it to move laterally within the network, potentially gaining access
+  to other hosts or services.
+
+- **Application Vulnerabilities:** All containerized applications may contain
+  bugs or security flaws. Unpatched vulnerabilities can be exploited to escalate
+  privileges or disrupt services.
+
+And certainly a few more.
 
 ## General Useful Resources
 
