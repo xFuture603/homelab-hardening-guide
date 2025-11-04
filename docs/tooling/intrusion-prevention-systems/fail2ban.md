@@ -53,8 +53,8 @@ You can create separate `.local` files under `/etc/fail2ban/`:
 ├── proftpd.local
 ```
 
-You can find some good configuration examples in the official fail2ban jail.conf
-on their [GitHub][jail-conf].
+You can find some good configuration examples in the official fail2ban
+`jail.conf` on their [GitHub][jail-conf].
 
 Below is an example for the ssh daemon (sshd):
 
