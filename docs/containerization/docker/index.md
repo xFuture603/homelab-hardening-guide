@@ -36,6 +36,10 @@ container images.
 
 And certainly a few more.
 
+Since we are mostly talking about our homelab, we will focus more on docker
+itself and not so much on hardening container images, since you presumably
+consume more images from external sources then you create on your own.
+
 ## General Useful Resources
 
 - [Docker Security Cheat Sheet][owasp-docker-cheat-sheet]

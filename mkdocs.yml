@@ -37,6 +37,7 @@ nav:
     - containerization/index.md
     - Docker:
       - containerization/docker/index.md
+      - containerization/docker/docker-socket-proxy.md
       - containerization/docker/prevent-privilege-escalation.md
       - containerization/docker/restrict-privileges-and-capabilities.md
       - containerization/docker/set-resource-limits.md
