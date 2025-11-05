@@ -10,7 +10,7 @@ by enabling the `no-new-privileges` security option.
 
 ## Configuration
 
-You can set it in your `docker-compose` file like this:
+You can set it in your `compose.yaml` file like this:
 
 ```yaml
 security_opt:
