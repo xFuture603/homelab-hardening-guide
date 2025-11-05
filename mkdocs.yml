@@ -37,6 +37,7 @@ nav:
     - containerization/index.md
     - Docker:
       - containerization/docker/index.md
+      - containerization/docker/prevent-privilege-escalation.md
   - Tooling:
     - tooling/index.md
     - IPS:
