@@ -12,6 +12,12 @@ container images.
     can change behavior over time. Always validate changes in a test environment
     before applying them to critical services.
 
+## Most important rule - keep your Host and Docker up to date
+
+This will protect you against known vulnerabilities and exploits. It is crucial
+to keep both the host and Docker up to date. This includes regularly updating
+the host kernel as well as the Docker Engine.
+
 ## Understanding Potential Attack Vectors
 
 - **Insecure Exposure:** Exposing the web interfaces of containerized
