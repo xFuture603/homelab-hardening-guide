@@ -11,6 +11,9 @@ on `setuid` binaries or elevated kernel capabilities, apart from `newuidmap` and
 `newgidmap`, which are required so the namespace can utilize a range of
 subordinate user/group IDs.
 
+I also recently learned, that rootless docker does not bypass your ufw firewall
+rules.
+
 !!! warning
 
     Running Docker in rootless mode require some prerequisites before it will
