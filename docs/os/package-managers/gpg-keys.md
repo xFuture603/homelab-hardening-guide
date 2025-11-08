@@ -63,7 +63,11 @@ Now this guide has several placeholder values. Below I try to explain them:
 - `keyring_name`: A descriptive name for the key file, e.g., `docker.gpg`.
 
 - `repository_url`: The repository’s base URL, e.g.,
-  https://download.docker.com/linux/ubuntu.
+
+  ```bash
+  https://download.docker.com/linux/ubuntu
+
+  ```
 
 - `distribution`: The codename of your OS release, e.g., `trixie` for Debian 13.
 
