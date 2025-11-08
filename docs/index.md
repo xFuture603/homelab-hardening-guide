@@ -43,7 +43,9 @@ adding more tools, layers, or technologies. Each additional component increases
 the overall complexity of a system, and complexity tends to introduce new risks
 — misconfigurations, unexpected interactions, and operational overhead.
 A simpler system is often a more secure system, because it is easier to
-understand, monitor, and maintain.
+understand, monitor, and maintain. So in general it is a good advice to not only
+build the highest walls with your security measurements but instead understand
+what you need to secure and what your potential attack surfaces are.
 
 !!! quote
 

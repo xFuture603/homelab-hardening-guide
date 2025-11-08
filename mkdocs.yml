@@ -25,6 +25,8 @@ nav:
     - network/index.md
   - Operating System:
     - os/index.md
+    - Package Managers:
+      - os/package-managers/gpg-keys.md
     - SSH:
       - os/ssh/index.md
       - os/ssh/non-standard-port.md
