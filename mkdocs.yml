@@ -44,6 +44,9 @@ nav:
       - containerization/docker/prevent-privilege-escalation.md
       - containerization/docker/restrict-privileges-and-capabilities.md
       - containerization/docker/set-resource-limits.md
+  - Web Security:
+    - web-security/index.md
+    - web-security/hsts.md
   - Tooling:
     - tooling/index.md
     - IPS:
