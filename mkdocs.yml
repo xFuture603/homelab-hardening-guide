@@ -47,6 +47,7 @@ nav:
   - Web Security:
     - web-security/index.md
     - web-security/hsts.md
+    - web-security/http-headers.md
   - Tooling:
     - tooling/index.md
     - IPS:
