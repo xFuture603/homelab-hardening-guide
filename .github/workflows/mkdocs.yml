@@ -1,15 +1,29 @@
-name: Build MKDocs
+name: Documentation
 on:
-    push:
-        branches:
-            - main
+  push:
+    branches:
+      - main
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 jobs:
-    deploy:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5
-            - uses: actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c # v6
-              with:
-                  python-version: 3.14
-            - run: pip install mkdocs mkdocs-material mkdocs-document-dates
-            - run: mkdocs gh-deploy --force --clean --verbose
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - run: curl -LsSf https://astral.sh/uv/install.sh | sh
+      - run: uv tool install zensical
+      - run: zensical build --clean
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: deployment
